@@ -18,11 +18,9 @@ function sumOfNumbers(arrayOfNumbers) {
   for (i = 0; i < arrayOfNumbers.length; i++)
     total += arrayOfNumbers[i];
     return total;
-    return arrayOfNumbers.length;
 }
 
  assignment.sumOfNumbers = sumOfNumbers;
-console.log(sumOfNumbers([1,2,3,4,5]));
 
 /**
  * Challenge - 2
@@ -41,10 +39,8 @@ function countEvenNumbers(arrayOfNumbers) {
     }
   }
   return count;
-    return arrayOfNumbers.length;
 }
 assignment.countEvenNumbers = countEvenNumbers;
-console.log(countEvenNumbers([1,2,3,4,5,6,7,8,9]));
 
 /**
  * Challenge - 3
